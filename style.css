@@ -1,10 +1,19 @@
 .section {
-  background-color: blue;
-  height: 200px;
+  background-color: #081028;
+  height: 715px;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
+}
+
+#name {
+  color: white;
+  font-size: 66px;
+}
+
+.headertext {
+  color: #ECBFD7;
 }
 
 /*# sourceMappingURL=style.css.map */

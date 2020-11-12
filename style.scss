@@ -1,8 +1,20 @@
+$maincolor:#081028;
+$secondarycolor: #ECBFD7;
+$textcolor:white;
+
 .section{
-	background-color: blue;
-    height: 200px;
+	background-color: $maincolor;
+    height: 715px;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
+}
+#name{
+	color:$textcolor;
+	font-size:66px;
+}
+
+.headertext{
+	color:$secondarycolor;
 }
