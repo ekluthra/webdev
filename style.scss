@@ -1,7 +1,8 @@
+
 $maincolor:#081028;
 $secondarycolor: #ECBFD7;
 $textcolor:white;
-
+/*
 .section{
 	background-color: $maincolor;
     height: 715px;
@@ -41,4 +42,57 @@ $textcolor:white;
 		list-style: none;
 	}
 
+}
+*/
+
+body{
+	background-color:$maincolor;
+	color:#555;
+}
+
+.nav-item{
+	color:$secondarycolor;
+}
+
+.container{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+.headertext{
+	font-size:30px;
+	color:$secondarycolor;
+	margin-bottom:0px;
+}
+
+#main-header{
+	background-color: $maincolor;
+	color:#fff;
+}
+
+#navbar{
+	background-color:$maincolor;
+	color:white;
+
+	ul{
+		padding: 0;
+		list-style: none;
+	}
+
+	li{
+		display: inline;
+	}
+
+	a{
+		color: $secondarycolor;
+		text-decoration: none;
+		font-size: 18px;
+		padding-right: 15px;
+	}
+}
+
+#name{
+	color:$textcolor;
+	font-size:76px;
 }
