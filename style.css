@@ -9,11 +9,34 @@
 
 #name {
   color: white;
-  font-size: 66px;
+  font-size: 76px;
 }
 
 .headertext {
+  font-size: 30px;
   color: #ECBFD7;
+  margin-bottom: 0px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#headersection {
+  position: absolute;
+  left: 150px;
+  top: 120px;
+}
+
+#navbar {
+  background-color: #081028;
+  color: red;
+}
+#navbar ul {
+  padding: 0;
+  list-style: none;
 }
 
 /*# sourceMappingURL=style.css.map */

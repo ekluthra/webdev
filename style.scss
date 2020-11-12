@@ -12,9 +12,33 @@ $textcolor:white;
 }
 #name{
 	color:$textcolor;
-	font-size:66px;
+	font-size:76px;
 }
 
 .headertext{
+	font-size:30px;
 	color:$secondarycolor;
+	margin-bottom:0px;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#headersection{
+	position: absolute;
+	left:150px;
+	top:120px;
+}
+
+#navbar{
+	background-color:$maincolor;
+	color:red;
+	ul{
+		padding:0;
+		list-style: none;
+	}
+
 }
